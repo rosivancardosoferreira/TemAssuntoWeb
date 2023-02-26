@@ -7,7 +7,6 @@ export const ContainerQuestions = styled.section`
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 4px solid red;
   height: 100%;
   flex: 1;
   .questions__box {
@@ -33,7 +32,7 @@ export const ContainerQuestions = styled.section`
       flex: 1;
       .questions__text {
         white-space: pre-line;
-        font-size: ${pxToRem(17)};
+        font-size: ${pxToRem(18)};
         line-height: ${pxToRem(25.5)};
         font-family: ${Roboto?.style?.fontFamily};
         color: ${colors.dark};
