@@ -10,6 +10,7 @@ export const ContainerHome = styled.section`
   flex-direction: column;
   row-gap: 40px;
   height: 100%;
+  width: 100%;
   .home__option {
     color: ${colors.light};
     font-family: ${Bangers?.style?.fontFamily};

@@ -9,7 +9,7 @@ export const ContainerCardTheme = styled.div`
   border: 8px solid ${colors.light};
   border-radius: 15px;
   position: relative;
-  background-color: #ff9800;
+  background-color: ${colors.orange};
   transition: all 0.3s;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.8);
   .theme__picture {

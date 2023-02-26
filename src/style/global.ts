@@ -9,7 +9,9 @@ export default createGlobalStyle`
   a,
   aside,
   body,
-  main {
+  main,
+  h1,
+  h2 {
     box-sizing: border-box;
     margin: 0;
     padding: 0;

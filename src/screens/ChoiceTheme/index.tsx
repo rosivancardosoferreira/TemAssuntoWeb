@@ -13,7 +13,6 @@ export function ChoiceTheme(): JSX.Element {
           <CardTheme key={id} label={label} image={image} destiny={destiny} />
         ))}
       </div>
-      <div className="theme__line" />
     </ContainerChoiceTheme>
   );
 }

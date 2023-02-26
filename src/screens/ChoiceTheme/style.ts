@@ -10,6 +10,7 @@ export const ContainerChoiceTheme = styled.section`
   flex-direction: column;
   row-gap: 40px;
   height: 100%;
+  width: 100%;
   .theme__title {
     color: ${colors.light};
     font-family: ${Bangers?.style?.fontFamily};
@@ -28,7 +29,6 @@ export const ContainerChoiceTheme = styled.section`
   @media screen and (max-width: 1096px) {
     .theme__items {
       grid-template-columns: repeat(2, 1fr);
-      border: 2px solid red;
       padding-left: 20px;
       padding-right: 20px;
     }
