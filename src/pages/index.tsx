@@ -1,6 +1,14 @@
+import React, { type ReactElement } from "react";
+import { BackgroundDefault } from "@/layouts/BackgroundDefault";
+import type { NextPageWithLayout } from "./_app";
 import { Home } from "@/screens";
-import React from "react";
 
-export default function HomePage(): React.ReactNode {
+const HomePage: NextPageWithLayout = () => {
   return <Home />;
-}
+};
+
+HomePage.getLayout = function getLayout(page: ReactElement) {
+  return <BackgroundDefault>{page}</BackgroundDefault>;
+};
+
+export default HomePage;
