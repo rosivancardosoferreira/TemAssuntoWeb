@@ -1,14 +1,14 @@
 import React, { type ReactElement } from "react";
 import { BackgroundDefault } from "@/layouts/BackgroundDefault";
 import type { NextPageWithLayout } from "../_app";
-import { Questions } from "@/screens";
+import { Subject } from "@/screens";
 
-const QuestionsPage: NextPageWithLayout = () => {
-  return <Questions />;
+const SubjectPage: NextPageWithLayout = () => {
+  return <Subject />;
 };
 
-QuestionsPage.getLayout = function getLayout(page: ReactElement) {
+SubjectPage.getLayout = function getLayout(page: ReactElement) {
   return <BackgroundDefault>{page}</BackgroundDefault>;
 };
 
-export default QuestionsPage;
+export default SubjectPage;
