@@ -8,8 +8,13 @@ export function useSubject(): useSubjectData {
   const { theme = "not-found" } = router.query;
   const _theme = (theme as themeDataOptions) ?? "not-found";
   const subject = themesData[_theme] ?? themesData["not-found"];
+  const destinyQuestions = _theme;
+  const shouldRenderButton = subject.value !== "not-found";
 
   return {
-    subject
+    subject,
+    shouldRenderButton,
+    navigateToQuestions: () => router.push(`/perguntas/${destinyQuestions}`),
+    naviagateToSubjects: () => router.push("/escolher-assunto")
   };
 }

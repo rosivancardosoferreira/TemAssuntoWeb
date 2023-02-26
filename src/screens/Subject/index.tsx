@@ -5,7 +5,12 @@ import { useSpring, animated } from "react-spring";
 import { useSubject } from "@/hooks/useSubject";
 
 export function Subject(): JSX.Element {
-  const { subject } = useSubject();
+  const {
+    shouldRenderButton,
+    subject,
+    navigateToQuestions,
+    naviagateToSubjects
+  } = useSubject();
   const animation = useSpring({
     from: { opacity: 0, transform: "scale(0)" },
     to: { opacity: 1, transform: "scale(1)" },
@@ -18,7 +23,19 @@ export function Subject(): JSX.Element {
         <div className="subject__body">
           <p className="subject__text">{subject?.subject}</p>
         </div>
-        <Button variant="orange" title="RESPONDER PERGUNTAS" />
+        {shouldRenderButton ? (
+          <Button
+            variant="orange"
+            title="RESPONDER PERGUNTAS"
+            onClick={navigateToQuestions}
+          />
+        ) : (
+          <Button
+            variant="red"
+            title="Voltar aos assuntos"
+            onClick={naviagateToSubjects}
+          />
+        )}
       </animated.div>
     </ContainerSubject>
   );

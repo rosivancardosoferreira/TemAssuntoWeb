@@ -17,6 +17,10 @@ const containerButtonModifier = {
     blue: css`
       background-color: ${colors.blue};
       border-bottom: 2px solid #0c69be;
+    `,
+    red: css`
+      background-color: ${colors.red};
+      border-bottom: 2px solid #bd0a00;
     `
   }
 };
