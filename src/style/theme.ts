@@ -1,5 +1,5 @@
 export const colors = {
-  contrast: "#FA894A"
+  light: "#F2F6FF"
 };
 
 export default {

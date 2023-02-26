@@ -40,6 +40,8 @@
       "jsx-a11y/click-events-have-key-events": "off",
       "react/jsx-no-bind": "off",
       "react/button-has-type": "off",
+      "@typescript-eslint/promise-function-async": "off",
+      "@typescript-eslint/no-misused-promises": "off",
       "import/no-extraneous-dependencies": [
           "error",
           {
