@@ -25,6 +25,7 @@ export function CardTheme({
           </div>
         </>
       </Link>
+      <div className="theme__line" />
     </ContainerCardTheme>
   );
 }

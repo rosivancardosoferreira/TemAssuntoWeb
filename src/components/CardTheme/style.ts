@@ -6,7 +6,7 @@ import styled from "styled-components";
 export const ContainerCardTheme = styled.div`
   width: fit-content;
   margin: auto;
-  border: 8px solid #ff9800;
+  border: 8px solid ${colors.light};
   border-radius: 15px;
   position: relative;
   background-color: #ff9800;
@@ -23,7 +23,7 @@ export const ContainerCardTheme = styled.div`
     opacity: 0.8;
     transition: all 0.3s;
     .theme__label {
-      background-color: #03a9f4;
+      background-color: ${colors.blue};
       text-align: center;
       border-radius: 5px;
       padding: 5px 10px;
@@ -34,11 +34,27 @@ export const ContainerCardTheme = styled.div`
       letter-spacing: ${pxToRem(0.5)};
     }
   }
+  .theme__line {
+    display: block;
+    height: 9px;
+    width: 0;
+    background-color: ${colors.blue};
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    bottom: -8px;
+    z-index: 2;
+    transition: all 0.4s;
+  }
   :hover {
+    transform: translateY(-20px);
+    scale: 1.2;
     .theme__bottom {
       opacity: 1;
     }
-    transform: translateY(-20px);
-    scale: 1.2;
+    .theme__line {
+      width: 90%;
+    }
   }
 `;
