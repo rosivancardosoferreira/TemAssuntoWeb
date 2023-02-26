@@ -7,13 +7,12 @@ export default createGlobalStyle`
   li,
   a,
   aside,
-  body {
+  body,
+  main {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
   }
-
-  body {}
 
   ul {
     list-style: none;
