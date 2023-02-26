@@ -5,3 +5,5 @@ export interface useQuestionsData {
     subject: string;
   };
 }
+
+export type SubjectProps = Pick<useQuestionsData, "subject">;

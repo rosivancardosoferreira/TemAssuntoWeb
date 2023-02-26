@@ -7,10 +7,11 @@ import Link from "next/link";
 export function CardTheme({
   label,
   image,
-  destiny
+  destiny,
+  style
 }: CardThemeProps): JSX.Element {
   return (
-    <ContainerCardTheme>
+    <ContainerCardTheme style={style}>
       <Link href={destiny ?? "#"}>
         <>
           <Image

@@ -1,9 +1,10 @@
 import { Roboto } from "@/pages/_app";
 import { colors } from "@/style/theme";
 import { pxToRem } from "@/utils/pxToRem";
+import { animated } from "react-spring";
 import styled from "styled-components";
 
-export const ContainerCardTheme = styled.div`
+export const ContainerCardTheme = styled(animated.div)`
   width: fit-content;
   margin: auto;
   border: 8px solid ${colors.light};
