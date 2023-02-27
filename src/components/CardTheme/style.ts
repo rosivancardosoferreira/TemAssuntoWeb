@@ -5,7 +5,6 @@ import { animated } from "react-spring";
 import styled from "styled-components";
 
 export const ContainerCardTheme = styled(animated.div)`
-  width: fit-content;
   margin: auto;
   border: 8px solid ${colors.light};
   border-radius: 15px;
@@ -57,5 +56,11 @@ export const ContainerCardTheme = styled(animated.div)`
     .theme__line {
       width: 90%;
     }
+  }
+  @media screen and (max-width: 1023px) {
+    transform: scale(0.85);
+  }
+  @media screen and (min-width: 1024px) {
+    width: fit-content;
   }
 `;

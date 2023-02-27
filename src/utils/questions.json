@@ -134,147 +134,512 @@
     ,
     "etica-nas-redes-sociais": [
         {
-            "problem":"O que é ética profissional?",
+            "problem":"Qual é a definição de ética no mundo digital?",
             "options":[
-                {
-                    "id": 1,
-                    "label":"xxxx",
-                    "value":"xxx"
-                },
-                {
-                    "id": 2,
-                    "label":"xx",
-                    "value":"x"
-                },
-                {
-                    "id": 3,
-                    "label":"xxx.",
-                    "value":"x"
-                },
-                {
-                    "id": 4,
-                    "label":"xxxx",
-                    "value":"xx"
-                }
+               {
+                  "id": 1,
+                  "label":"Um conjunto de leis e regulamentos criados para manter a ordem no ambiente virtual.",
+                  "value":"a"
+               },
+               {
+                  "id": 2,
+                  "label":"Uma prática importante que visa garantir a dignidade, segurança e privacidade no ambiente virtual, seguindo valores morais e legislações.",
+                  "value":"b"
+               },
+               {
+                  "id": 3,
+                  "label":"Um conjunto de ações realizadas pelas empresas para obter informações dos usuários.",
+                  "value":"c"
+               },
+               {
+                  "id": 4,
+                  "label":"Uma prática que não é importante no mundo digital.",
+                  "value":"d"
+               }
             ],
-            "correct":"xx"
-        }
+            "correct":"b"
+        },
+        {
+            "problem":"Qual é um exemplo de lei brasileira que visa proteger a dignidade humana no ambiente virtual?",
+            "options":[
+               {
+                  "id": 1,
+                  "label":"Lei de Proteção de Dados (Lei n. 13.709/2018).",
+                  "value":"a"
+               },
+               {
+                  "id": 2,
+                  "label":"Lei de Acesso à Informação (Lei n. 12.527/2011).",
+                  "value":"b"
+               },
+               {
+                  "id": 3,
+                  "label":"Marco Civil da Internet (Lei n. 12.965/2014).",
+                  "value":"c"
+               },
+               {
+                  "id": 4,
+                  "label":"Lei do E-commerce (Lei n. 13.105/2015).",
+                  "value":"d"
+               }
+            ],
+            "correct":"c"
+        },
+        {
+            "problem":"Por que é importante ter leis e regulamentações no ambiente digital?",
+            "options":[
+               {
+                  "id": 1,
+                  "label":"Para permitir que as empresas acessem, compartilhem e vendam todos os tipos de dados pessoais.",
+                  "value":"a"
+               },
+               {
+                  "id": 2,
+                  "label":"Para garantir a proteção das informações pessoais dos usuários e a privacidade.",
+                  "value":"b"
+               },
+               {
+                  "id": 3,
+                  "label":"Para limitar a quantidade de informações que as empresas podem coletar.",
+                  "value":"c"
+               },
+               {
+                  "id": 4,
+                  "label":"Para permitir que as empresas utilizem as informações pessoais dos usuários sem restrições.",
+                  "value":"d"
+               }
+            ],
+            "correct":"b"
+        },
+        {
+            "problem":"Quais são alguns exemplos de perigos e crimes virtuais?",
+            "options":[
+               {
+                  "id": 1,
+                  "label":"Uso excessivo de mídias sociais e jogos online.",
+                  "value":"a"
+               },
+               {
+                  "id": 2,
+                  "label":"Compartilhamento de informações irrelevantes na internet.",
+                  "value":"b"
+               },
+               {
+                  "id": 3,
+                  "label":"Bullings e ameaças, falsa identidade, estelionato, violação de sistemas de segurança, divulgação de fotos e dados, violação de propriedade intelectual, entre outros.",
+                  "value":"c"
+               },
+               {
+                  "id": 4,
+                  "label":"Nenhuma das opções acima.",
+                  "value":"d"
+               }
+            ],
+            "correct":"c"
+        },
+        {
+            "problem":"Quem é responsável por garantir a ética no ambiente digital?",
+            "options":[
+               {
+                  "id": 1,
+                  "label":"O governo.",
+                  "value":"a"
+               },
+               {
+                  "id": 2,
+                  "label":"As empresas.",
+                  "value":"b"
+               },
+               {
+                  "id": 3,
+                  "label":"Os usuários.",
+                  "value":"c"
+               },
+               {
+                  "id": 4,
+                  "label":"Todos os acima.",
+                  "value":"d"
+               }
+            ],
+            "correct":"d"
+         }
+
     ],
     "educacao-e-questoes-ambientais": [
         {
-            "problem":"O que é ética profissional?",
+            "problem":"Qual é o objetivo da Educação Ambiental mencionado no texto?",
             "options":[
-                {
-                    "id": 1,
-                    "label":"xxxx",
-                    "value":"xxx"
-                },
-                {
-                    "id": 2,
-                    "label":"xx",
-                    "value":"x"
-                },
-                {
-                    "id": 3,
-                    "label":"xxx.",
-                    "value":"x"
-                },
-                {
-                    "id": 4,
-                    "label":"xxxx",
-                    "value":"xx"
-                }
+               {
+                  "id": 1,
+                  "label":"Desenvolver comportamentos nocivos para o meio ambiente.",
+                  "value":"a"
+               },
+               {
+                  "id": 2,
+                  "label":"Fortalecer práticas cidadãs e formar cidadãos conscientes e críticos.",
+                  "value":"b"
+               },
+               {
+                  "id": 3,
+                  "label":"Ignorar a inter-relação entre o ser humano e o meio ambiente.",
+                  "value":"c"
+               },
+               {
+                  "id": 4,
+                  "label":"Promover a degradação ambiental e os danos à sociedade.",
+                  "value":"d"
+               }
             ],
-            "correct":"xx"
+            "correct":"b"
+        },
+        {
+            "problem":"Qual é a importância da Educação Ambiental, de acordo com o texto?",
+            "options":[
+               {
+                  "id": 1,
+                  "label":"Aumentar a degradação ambiental e os danos à sociedade.",
+                  "value":"a"
+               },
+               {
+                  "id": 2,
+                  "label":"Ignorar a inter-relação entre o ser humano e o meio ambiente.",
+                  "value":"b"
+               },
+               {
+                  "id": 3,
+                  "label":"Promover comportamentos nocivos tanto para o ambiente como para a sociedade.",
+                  "value":"c"
+               },
+               {
+                  "id": 4,
+                  "label":"Reduzir danos ambientais e aumentar práticas sustentáveis.",
+                  "value":"d"
+               }
+            ],
+            "correct":"d"
+        },
+        {
+            "problem":"Qual é a data em que é comemorado o Dia Nacional da Educação Ambiental, conforme o texto?",
+            "options":[
+               {
+                  "id": 1,
+                  "label":"5 de junho.",
+                  "value":"a"
+               },
+               {
+                  "id": 2,
+                  "label":"22 de abril.",
+                  "value":"b"
+               },
+               {
+                  "id": 3,
+                  "label":"3 de junho.",
+                  "value":"c"
+               },
+               {
+                  "id": 4,
+                  "label":"7 de setembro.",
+                  "value":"d"
+               }
+            ],
+            "correct":"c"
         }
     ],
     "educacao-e-questoes-raciais": [
         {
-            "problem":"O que é ética profissional?",
+            "problem":"Qual a principal mudança trazida pela Constituição Federal de 1988, a LDB de 1996 e a lei 10.639/03 para o campo educacional?",
             "options":[
-                {
-                    "id": 1,
-                    "label":"xxxx",
-                    "value":"xxx"
-                },
-                {
-                    "id": 2,
-                    "label":"xx",
-                    "value":"x"
-                },
-                {
-                    "id": 3,
-                    "label":"xxx.",
-                    "value":"x"
-                },
-                {
-                    "id": 4,
-                    "label":"xxxx",
-                    "value":"xx"
-                }
+               {
+                  "id": 1,
+                  "label":"Valorização da cultura asiática e africana.",
+                  "value":"a"
+               },
+               {
+                  "id": 2,
+                  "label":"Democratização dos direitos do cidadão brasileiro.",
+                  "value":"b"
+               },
+               {
+                  "id": 3,
+                  "label":"Priorização da formação técnica em detrimento da formação humanística.",
+                  "value":"c"
+               },
+               {
+                  "id": 4,
+                  "label":"Incentivo ao conservadorismo nas instituições educacionais.",
+                  "value":"d"
+               }
             ],
-            "correct":"xx"
+            "correct":"b"
+        },
+        {
+            "problem":"Por que é importante considerar não apenas as características físicas e a classificação racial, mas também a dimensão simbólica, cultural, territorial, mítica, política e identitária do negro brasileiro?",
+            "options":[
+               {
+                  "id": 1,
+                  "label":"Porque a classificação racial é o único fator relevante na compreensão da realidade do negro brasileiro.",
+                  "value":"a"
+               },
+               {
+                  "id": 2,
+                  "label":"Porque a dimensão simbólica, cultural, territorial, mítica, política e identitária não têm relação com a questão étnico-racial.",
+                  "value":"b"
+               },
+               {
+                  "id": 3,
+                  "label":"Porque a dimensão simbólica, cultural, territorial, mítica, política e identitária são elementos fundamentais na compreensão da diversidade cultural e étnica do país.",
+                  "value":"c"
+               },
+               {
+                  "id": 4,
+                  "label":"Porque a dimensão simbólica, cultural, territorial, mítica, política e identitária são irrelevantes para a compreensão da diversidade cultural e étnica do país.",
+                  "value":"d"
+               }
+            ],
+            "correct":"c"
+        },
+        {
+            "problem":"Qual a diferença entre racismo e colorismo?",
+            "options":[
+               {
+                  "id": 1,
+                  "label":"Racismo é a discriminação baseada na crença da existência de uma hierarquia entre raças e etnias, enquanto colorismo é a discriminação baseada na cor da pele.",
+                  "value":"a"
+               },
+               {
+                  "id": 2,
+                  "label":"Racismo é a discriminação baseada na cor da pele, enquanto colorismo é a discriminação baseada na crença da existência de uma hierarquia entre raças e etnias.",
+                  "value":"b"
+               },
+               {
+                  "id": 3,
+                  "label":"Racismo e colorismo são termos sinônimos, utilizados para se referir à discriminação racial.",
+                  "value":"c"
+               },
+               {
+                  "id": 4,
+                  "label":"Racismo e colorismo são termos obsoletos, não sendo mais utilizados atualmente.",
+                  "value":"d"
+               }
+            ],
+            "correct":"a"
         }
     ],
     "educacao-e-questoes-de-saude": [
         {
-            "problem":"O que é ética profissional?",
+            "problem":"Qual é a definição de educação em saúde apresentada no texto?",
             "options":[
-                {
-                    "id": 1,
-                    "label":"xxxx",
-                    "value":"xxx"
-                },
-                {
-                    "id": 2,
-                    "label":"xx",
-                    "value":"x"
-                },
-                {
-                    "id": 3,
-                    "label":"xxx.",
-                    "value":"x"
-                },
-                {
-                    "id": 4,
-                    "label":"xxxx",
-                    "value":"xx"
-                }
+               {
+                  "id": 1,
+                  "label":"Um conjunto de ações que promovem conhecimentos sobre processos de produção de alimentos.",
+                  "value":"a"
+               },
+               {
+                  "id": 2,
+                  "label":"Um programa de conscientização sobre a importância da prática de atividades físicas regulares.",
+                  "value":"b"
+               },
+               {
+                  "id": 3,
+                  "label":"Um conjunto de palestras sobre tecnologia e inovação na área da saúde.",
+                  "value":"c"
+               },
+               {
+                  "id": 4,
+                  "label":"Um conjunto de ações que promovem conhecimentos sobre processos, comportamentos e boas práticas em saúde.",
+                  "value":"d"
+               }
             ],
-            "correct":"xx"
-        }
+            "correct":"d"
+        },
+        {
+            "problem":"Por que a educação em saúde é fundamental no campo profissional?",
+            "options":[
+               {
+                  "id": 1,
+                  "label":"Para aumentar a carga horária dos profissionais da saúde.",
+                  "value":"a"
+               },
+               {
+                  "id": 2,
+                  "label":"Para aumentar o número de pacientes atendidos por dia.",
+                  "value":"b"
+               },
+               {
+                  "id": 3,
+                  "label":"Para oferecer serviços de maneira segura e eficiente.",
+                  "value":"c"
+               },
+               {
+                  "id": 4,
+                  "label":"Para reduzir os custos dos serviços de saúde.",
+                  "value":"d"
+               }
+            ],
+            "correct":"c"
+        },
+        {
+            "problem":"Qual é o objetivo dos movimentos coletivos em prol da conscientização e da preservação na área da saúde?",
+            "options":[
+               {
+                  "id": 1,
+                  "label":"Aumentar os lucros das empresas de saúde.",
+                  "value":"a"
+               },
+               {
+                  "id": 2,
+                  "label":"Divulgar informações falsas sobre doenças e tratamentos.",
+                  "value":"b"
+               },
+               {
+                  "id": 3,
+                  "label":"Alertar a população sobre os riscos de várias doenças e incentivar os cuidados básicos e o diagnóstico precoce.",
+                  "value":"c"
+               },
+               {
+                  "id": 4,
+                  "label":"Desestimular a realização de exames preventivos.",
+                  "value":"d"
+               }
+            ],
+            "correct":"c"
+         }
     ],
     "educacao-e-questoes-de-inclusao-digital": [
         {
-            "problem":"O que é ética profissional?",
+            "problem":"Qual é um dos principais desafios da inclusão digital no Brasil?",
             "options":[
-                {
-                    "id": 1,
-                    "label":"xxxx",
-                    "value":"xxx"
-                },
-                {
-                    "id": 2,
-                    "label":"xx",
-                    "value":"x"
-                },
-                {
-                    "id": 3,
-                    "label":"xxx.",
-                    "value":"x"
-                },
-                {
-                    "id": 4,
-                    "label":"xxxx",
-                    "value":"xx"
-                }
+               {
+                  "id": 1,
+                  "label":"Falta de acesso à internet e equipamentos",
+                  "value":"a"
+               },
+               {
+                  "id": 2,
+                  "label":"Baixa capacitação digital da população",
+                  "value":"b"
+               },
+               {
+                  "id": 3,
+                  "label":"Problemas de distribuição de sinal de internet",
+                  "value":"c"
+               },
+               {
+                  "id": 4,
+                  "label":"Dificuldade em encontrar profissionais qualificados na área de tecnologia",
+                  "value":"d"
+               }
             ],
-            "correct":"xx"
+            "correct":"c"
+        },
+        {
+            "problem":"Por que a inclusão digital é importante na educação?",
+            "options":[
+               {
+                  "id": 1,
+                  "label":"Para melhorar a comunicação entre alunos e professores",
+                  "value":"a"
+               },
+               {
+                  "id": 2,
+                  "label":"Para potencializar o desenvolvimento cognitivo dos estudantes",
+                  "value":"b"
+               },
+               {
+                  "id": 3,
+                  "label":"Para reduzir os custos da educação",
+                  "value":"c"
+               },
+               {
+                  "id": 4,
+                  "label":"Para aumentar a quantidade de alunos matriculados nas escolas",
+                  "value":"d"
+               }
+            ],
+            "correct":"b"
+        },
+        {
+            "problem":"Qual é uma das formas de diminuir o abismo digital no Brasil?",
+            "options":[
+               {
+                  "id": 1,
+                  "label":"Ação conjunta entre governos, empresas e instituições de educação",
+                  "value":"a"
+               },
+               {
+                  "id": 2,
+                  "label":"Maior foco na educação presencial em detrimento da educação online",
+                  "value":"b"
+               },
+               {
+                  "id": 3,
+                  "label":"Redução do investimento em infraestrutura de internet",
+                  "value":"c"
+               },
+               {
+                  "id": 4,
+                  "label":"Limitação do acesso à internet e equipamentos para evitar desigualdades",
+                  "value":"d"
+               }
+            ],
+            "correct":"a"
+        },
+        {
+            "problem":"Quais são as consequências da falta de acesso à internet e equipamentos?",
+            "options":[
+               {
+                  "id": 1,
+                  "label":"Atrasos na proficiência educacional e no conhecimento em programação e lógica computacional",
+                  "value":"a"
+               },
+               {
+                  "id": 2,
+                  "label":"Maior facilidade de acesso a serviços públicos",
+                  "value":"b"
+               },
+               {
+                  "id": 3,
+                  "label":"Aumento da renda da população de baixa renda",
+                  "value":"c"
+               },
+               {
+                  "id": 4,
+                  "label":"Melhora na produtividade no trabalho",
+                  "value":"d"
+               }
+            ],
+            "correct":"a"
+        },
+        {
+        "problem":"Como as empresas podem ajudar a superar os desafios da inclusão digital no Brasil?",
+        "options":[
+            {
+                "id": 1,
+                "label":"Adotando capacitação digital e investindo nos colaboradores",
+                "value":"a"
+            },
+            {
+                "id": 2,
+                "label":"Reduzindo o acesso à internet e equipamentos para economizar recursos",
+                "value":"b"
+            },
+            {
+                "id": 3,
+                "label":"Focando apenas na qualificação de seus executivos",
+                "value":"c"
+            },
+            {
+                "id": 4,
+                "label":"Ignorando os desafios da inclusão digital e focando apenas em seus lucros",
+                "value":"d"
+            }
+        ],
+        "correct":"a"
         }
     ],
     "not-found": [
         {
-            "problem":"O que é ética profissional?",
+            "problem":"Selecione um conteúdo valido!",
             "options":[
                 {
                     "id": 1,

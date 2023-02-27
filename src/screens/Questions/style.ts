@@ -39,47 +39,77 @@ export const ContainerQuestions = styled.section`
   align-items: center;
   width: 100%;
   max-width: 1000px;
-  margin: auto;
   overflow: auto;
-  max-height: 90%;
-  padding: 0 30px;
   .question__box {
     background: rgba(36, 45, 71, 0.8);
-    border: 8px solid #c5dba1;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 30px;
-    padding: 45px 70px;
     margin: 35px 0 25px;
     width: 100%;
     .question__text {
       font-weight: 500;
       color: ${colors.light};
       font-family: ${Roboto?.style?.fontFamily};
-      font-size: ${pxToRem(22)};
-      letter-spacing: ${pxToRem(0.5)};
     }
   }
   .question__options {
     display: flex;
     flex-direction: column;
-    row-gap: 20px;
     width: 100%;
   }
   .question__confirm {
-    margin-top: 50px;
     width: 25%;
     min-width: fit-content;
     transition: all 0.3s;
     transform: scale(1);
   }
   .question__confirm--hidden {
-    border: 2px solid red;
     transform: scale(0);
   }
   .question__controls {
     display: flex;
     width: 100%;
     column-gap: 25px;
+  }
+  @media screen and (max-width: 1023px) {
+    padding: 20px;
+    max-height: 98%;
+    .question__box {
+      padding: 20px 10px;
+      border: 4px solid #c5dba1;
+      .question__text {
+        font-size: ${pxToRem(16)};
+        letter-spacing: ${pxToRem(0.3)};
+      }
+    }
+    .question__options {
+      row-gap: 10px;
+    }
+    .question__confirm {
+      margin-top: 10px;
+    }
+    .question__controls {
+      flex-direction: column;
+    }
+  }
+  @media screen and (min-width: 1024px) {
+    margin: auto;
+    padding: 0 30px;
+    max-height: 90%;
+    .question__box {
+      padding: 45px 70px;
+      border: 8px solid #c5dba1;
+      .question__text {
+        font-size: ${pxToRem(22)};
+        letter-spacing: ${pxToRem(0.5)};
+      }
+    }
+    .question__options {
+      row-gap: 20px;
+    }
+    .question__confirm {
+      margin-top: 50px;
+    }
   }
 `;
 
@@ -91,8 +121,6 @@ export const OptionItem = styled.button<OptionItemModifier>`
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 20px;
     font-family: ${Roboto?.style?.fontFamily};
-    font-size: ${pxToRem(21)};
-    letter-spacing: ${pxToRem(0.5)};
     transition: all 0.4s;
     position: relative;
     z-index: 1;
@@ -118,4 +146,13 @@ export const OptionItem = styled.button<OptionItemModifier>`
       }
     }
   `}
+
+  @media screen and (max-width: 1023px) {
+    font-size: ${pxToRem(16)};
+    letter-spacing: ${pxToRem(0.3)};
+  }
+  @media screen and (min-width: 1024px) {
+    font-size: ${pxToRem(21)};
+    letter-spacing: ${pxToRem(0.5)};
+  }
 `;

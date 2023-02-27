@@ -43,7 +43,7 @@ export function Questions(): JSX.Element {
       {showOptions ? (
         <div className="question__controls">
           <Button
-            title="INÍCIO"
+            title="Escolher outro assunto"
             variant="blue"
             className="question__confirm"
             onClick={goToHome}

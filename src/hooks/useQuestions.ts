@@ -29,7 +29,6 @@ export function useQuestions(): useQuestionsData {
       setIsConfirmAnswer(false);
     }
     if (value === selectedAnswer) {
-      alert("tirou");
       setSelectedAnswer(undefined);
       return 0;
     }
@@ -79,7 +78,7 @@ export function useQuestions(): useQuestionsData {
     amountQuestions,
     isExistNextQuestion: currentQuestion < amountQuestions - 1,
     onHandleSelectAnswer,
-    goToHome: () => router.push("/"),
+    goToHome: () => router.push("/escolher-assunto"),
     showSelectAnswer,
     onConfirmAnswer,
     onNextQuestion
