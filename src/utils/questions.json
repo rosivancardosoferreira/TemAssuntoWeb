@@ -1,0 +1,303 @@
+{
+    "etica-profissional": [
+        {
+            "problem":"O que é ética profissional?",
+            "options":[
+                {
+                    "id": 1,
+                    "label":"Um código de conduta jurídico.",
+                    "value":"a"
+                },
+                {
+                    "id": 2,
+                    "label":"O conjunto de valores morais e culturais aceitáveis no ambiente corporativo.",
+                    "value":"b"
+                },
+                {
+                    "id": 3,
+                    "label":"Um documento que estabelece as normas de comportamento dos funcionários.",
+                    "value":"c"
+                },
+                {
+                    "id": 4,
+                    "label":"Uma postura individual do empregado.",
+                    "value":"d"
+                }
+            ],
+            "correct":"b"
+        },
+        {
+            "problem":"Qual é o objetivo dos códigos de ética das empresas?",
+            "options":[
+               {
+                  "id": 1,
+                  "label":"Estabelecer as leis do trabalho.",
+                  "value":"a"
+               },
+               {
+                  "id": 2,
+                  "label":"Promover o bem-estar e desenvolvimento coletivo.",
+                  "value":"b"
+               },
+               {
+                  "id": 3,
+                  "label":"Impor padrões de comportamento rígidos.",
+                  "value":"c"
+               },
+               {
+                  "id": 4,
+                  "label":"Proteger a empresa de processos judiciais.",
+                  "value":"d"
+               }
+            ],
+            "correct":"b"
+        },
+        {
+            "problem":"Quem deve seguir as normas de conduta estabelecidas nos códigos de ética das empresas?",
+            "options":[
+               {
+                  "id": 1,
+                  "label":"Apenas os funcionários.",
+                  "value":"a"
+               },
+               {
+                  "id": 2,
+                  "label":"Apenas a administração.",
+                  "value":"b"
+               },
+               {
+                  "id": 3,
+                  "label":"Apenas os estagiários.",
+                  "value":"c"
+               },
+               {
+                  "id": 4,
+                  "label":"Tanto os funcionários quanto a administração.",
+                  "value":"d"
+               }
+            ],
+            "correct":"d"
+        },
+        {
+            "problem":"O que são posturas individuais na ética profissional?",
+            "options":[
+               {
+                  "id": 1,
+                  "label":"Regras estabelecidas pelo governo.",
+                  "value":"a"
+               },
+               {
+                  "id": 2,
+                  "label":"Valores morais compartilhados pela sociedade.",
+                  "value":"b"
+               },
+               {
+                  "id": 3,
+                  "label":"Ações baseadas em princípios pessoais.",
+                  "value":"c"
+               },
+               {
+                  "id": 4,
+                  "label":"Atitudes profissionais orientadas pela empresa.",
+                  "value":"d"
+               }
+            ],
+            "correct":"c"
+        },
+        {
+            "problem":"Como a ética profissional pode proteger os colaboradores?",
+            "options":[
+               {
+                  "id": 1,
+                  "label":"Evitando conflitos de interesse e situações inadequadas.",
+                  "value":"a"
+               },
+               {
+                  "id": 2,
+                  "label":"Prejudicando os funcionários que não seguem as normas de conduta.",
+                  "value":"b"
+               },
+               {
+                  "id": 3,
+                  "label":"Favorecendo apenas os funcionários mais antigos na empresa.",
+                  "value":"c"
+               },
+               {
+                  "id": 4,
+                  "label":"Beneficiando aqueles que têm cargos de maior destaque.",
+                  "value":"d"
+               }
+            ],
+            "correct":"a"
+        }
+    ]
+    ,
+    "etica-nas-redes-sociais": [
+        {
+            "problem":"O que é ética profissional?",
+            "options":[
+                {
+                    "id": 1,
+                    "label":"xxxx",
+                    "value":"xxx"
+                },
+                {
+                    "id": 2,
+                    "label":"xx",
+                    "value":"x"
+                },
+                {
+                    "id": 3,
+                    "label":"xxx.",
+                    "value":"x"
+                },
+                {
+                    "id": 4,
+                    "label":"xxxx",
+                    "value":"xx"
+                }
+            ],
+            "correct":"xx"
+        }
+    ],
+    "educacao-e-questoes-ambientais": [
+        {
+            "problem":"O que é ética profissional?",
+            "options":[
+                {
+                    "id": 1,
+                    "label":"xxxx",
+                    "value":"xxx"
+                },
+                {
+                    "id": 2,
+                    "label":"xx",
+                    "value":"x"
+                },
+                {
+                    "id": 3,
+                    "label":"xxx.",
+                    "value":"x"
+                },
+                {
+                    "id": 4,
+                    "label":"xxxx",
+                    "value":"xx"
+                }
+            ],
+            "correct":"xx"
+        }
+    ],
+    "educacao-e-questoes-raciais": [
+        {
+            "problem":"O que é ética profissional?",
+            "options":[
+                {
+                    "id": 1,
+                    "label":"xxxx",
+                    "value":"xxx"
+                },
+                {
+                    "id": 2,
+                    "label":"xx",
+                    "value":"x"
+                },
+                {
+                    "id": 3,
+                    "label":"xxx.",
+                    "value":"x"
+                },
+                {
+                    "id": 4,
+                    "label":"xxxx",
+                    "value":"xx"
+                }
+            ],
+            "correct":"xx"
+        }
+    ],
+    "educacao-e-questoes-de-saude": [
+        {
+            "problem":"O que é ética profissional?",
+            "options":[
+                {
+                    "id": 1,
+                    "label":"xxxx",
+                    "value":"xxx"
+                },
+                {
+                    "id": 2,
+                    "label":"xx",
+                    "value":"x"
+                },
+                {
+                    "id": 3,
+                    "label":"xxx.",
+                    "value":"x"
+                },
+                {
+                    "id": 4,
+                    "label":"xxxx",
+                    "value":"xx"
+                }
+            ],
+            "correct":"xx"
+        }
+    ],
+    "educacao-e-questoes-de-inclusao-digital": [
+        {
+            "problem":"O que é ética profissional?",
+            "options":[
+                {
+                    "id": 1,
+                    "label":"xxxx",
+                    "value":"xxx"
+                },
+                {
+                    "id": 2,
+                    "label":"xx",
+                    "value":"x"
+                },
+                {
+                    "id": 3,
+                    "label":"xxx.",
+                    "value":"x"
+                },
+                {
+                    "id": 4,
+                    "label":"xxxx",
+                    "value":"xx"
+                }
+            ],
+            "correct":"xx"
+        }
+    ],
+    "not-found": [
+        {
+            "problem":"O que é ética profissional?",
+            "options":[
+                {
+                    "id": 1,
+                    "label":"xxxx",
+                    "value":"xxx"
+                },
+                {
+                    "id": 2,
+                    "label":"xx",
+                    "value":"x"
+                },
+                {
+                    "id": 3,
+                    "label":"xxx.",
+                    "value":"x"
+                },
+                {
+                    "id": 4,
+                    "label":"xxxx",
+                    "value":"xx"
+                }
+            ],
+            "correct":"xx"
+        }
+    ]
+}
